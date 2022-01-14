@@ -15,3 +15,7 @@ git push -u origin main
 git remote add origin https://github.com/BlackCode7/Estudo-Java.git
 git branch -M main
 git push -u origin main
+
+## kanban do projeto
+Aqui se encontra toda a matéria para abranger
+https://github.com/users/BlackCode7/projects/1?fullscreen=true
