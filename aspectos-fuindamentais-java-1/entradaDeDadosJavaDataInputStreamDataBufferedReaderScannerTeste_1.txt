@@ -1,0 +1,4 @@
+O exemplo a seguir ilustra o DataInputStream e DataOutputStream 
+usar este exemplo para ler a partir de um arquivo de texto test.txt 
+5 linhas e convertidos em letras maiúsculas, a última salva em outro 
+arquivo em test1.txt.
