@@ -18,5 +18,6 @@ git push -u origin main
 
 ## kanban do projeto
 Aqui se encontra toda a matéria para abranger
+DATA 15/01/22 --->>> Início 
 
 https://github.com/BlackCode7/Estudo-Java/projects/1?add_cards_query=is%3Aopen
