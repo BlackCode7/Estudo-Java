@@ -10,7 +10,7 @@ public class ConversaoDeTiposJava {
 		float conversaoParaFloat = Float.parseFloat(s1);
 		double conversaoParaDouble = Double.parseDouble(s1);
 		
-		// laõ de repetição for(){}
+		// laços de repetição for(){}
 		for (int conversaoParaFloat1 = 0; conversaoParaFloat1 == 100; conversaoParaFloat1++) {
 			conversaoParaFloat1 = conversaoParaFloat1 + 1;
 			System.out.println("Valor de x >>> " + conversaoParaFloat1);
