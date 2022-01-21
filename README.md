@@ -21,3 +21,25 @@ Aqui se encontra toda a matéria para abranger
 DATA 15/01/22 --->>> Início 
 
 https://github.com/BlackCode7/Estudo-Java/projects/1?add_cards_query=is%3Aopen
+
+
+
+warning: LF will be replaced by CRLF in .vscode/PythonImportHelper-v2-Completion.json.
+The file will have its original line endings in your working directory
+warning: adding embedded git repository: estudo-java
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> estudo-java
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached estudo-java
+hint: 
+hint: See "git help submodule" for more information.
+
+
+
