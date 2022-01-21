@@ -41,5 +41,6 @@ hint: 	git rm --cached estudo-java
 hint: 
 hint: See "git help submodule" for more information.
 
-
+# Tarefas realizadas no repositório com a linguagem java
+  Relembrando comandos como while / switch case break
 
