@@ -44,3 +44,4 @@ hint: See "git help submodule" for more information.
 # Tarefas realizadas no repositório com a linguagem java
   1 - Relembrando comandos como while / switch case break
   2 - Criando testes com Junit
+  3 - Aprofundadno estudos de testes com Junit >>> https://github.com/BlackCode7/Estudo-Java/tree/main/aspectos-fuindamentais-java-1/src/main/java/arraysJavaTeste
