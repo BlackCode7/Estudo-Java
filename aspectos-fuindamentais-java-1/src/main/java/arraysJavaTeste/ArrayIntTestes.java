@@ -1,8 +1,9 @@
 package arraysJavaTeste;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -15,47 +16,47 @@ public class ArrayIntTestes {
 	
 	@Test
     @Order(1)
-	@DisplayName("Testa se a lista de arrays é maior que zero")
+	@DisplayName("Testa se a lista de arrays ï¿½ maior que zero")
 	void testeArrayJavaVerificaSeEMaiorQueZERO() {
 		ArrayJavaTestes arraysJava = new ArrayJavaTestes();
 		int teste1 = arraysJava.arrayInt_1.length;
-		assertEquals(true, (teste1 > 0));
+		Assert.assertEquals(true, (teste1 > 0));
 	}	
 	
 	@Test
     @Order(2)
-	@DisplayName("Testa se a lista de arrays é maior ou igual à 200")
+	@DisplayName("Testa se a lista de arrays ï¿½ maior ou igual ï¿½ 200")
 	void testeArrayJavaVerificaSeEMaiorOuIgual200() {
 		ArrayJavaTestes arraysJava = new ArrayJavaTestes();
 		int teste1 = arraysJava.arrayInt_1.length;
-		assertEquals(true, (teste1 >= 200));
+		Assert.assertEquals(true, (teste1 >= 200));
 	}
 	
 	@Test
     @Order(3)
-	@DisplayName("Testa se o array é maior que 100 e menor que 200")
+	@DisplayName("Testa se o array ï¿½ maior que 100 e menor que 200")
 	void testeArrayJavaVerificaSeMaiorQue100MenorQue200() {
 		ArrayJavaTestes arraysJava = new ArrayJavaTestes();
 		int teste1 = arraysJava.arrayInt_1.length;
-		assertEquals(true, (teste1 > 100 && teste1 <= 200));
+		Assert.assertEquals(true, (teste1 > 100 && teste1 <= 200));
 	}
 	
 	@Test
     @Order(4)
-	@DisplayName("Testa se o arrays não é maior à 200")
+	@DisplayName("Testa se o arrays nï¿½o ï¿½ maior ï¿½ 200")
 	void testeArrayJavaVerificaSeArrayNaoMaiorQue200() {
 		ArrayJavaTestes arraysJava = new ArrayJavaTestes();
 		int teste1 = arraysJava.arrayInt_1.length;
-		assertNotEquals(false, (teste1 <= 200));
+		Assert.assertNotEquals(false, (teste1 <= 200));
 	}
 	
 	@Test
     @Order(5)
-	@DisplayName("Testa se o arrays não é maior à 200")
+	@DisplayName("Testa se o arrays nï¿½o ï¿½ maior ï¿½ 200")
 	void testeArrayJavaVerificaSeArrayNaoMaiorQue200_() {
 		ArrayJavaTestes arraysJava = new ArrayJavaTestes();
 		int teste1 = arraysJava.arrayInt_1.length;
-		assertNotEquals(true, (teste1 > 200));
+		Assert.assertNotEquals(true, (teste1 > 200));
 	}
 
 }

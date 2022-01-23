@@ -16,8 +16,7 @@ public class ArrayJavaTestes {
 	 */
 	
 	//public static final String arrayInt_1 = null;
-	static
-	String[] listaNomes = { "Anderson", "Simone", "Josy", "Adilson", "dagmar" };// Array de strings
+	static String[] listaNomes = { "Anderson", "Simone", "Josy", "Adilson", "dagmar" };// Array de strings
 	static String[] listaNomes1 = new String[112]; // Limitando o uso do arrays a uma determinada quantidade de arrays
 	static String[] listaNomes2 = listaNomes;
 	
