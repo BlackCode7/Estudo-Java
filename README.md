@@ -48,3 +48,5 @@ hint: See "git help submodule" for more information.
   4 - Testes em funções com sobre carga
   5 - Teste em funções fatoriais
   6 - Teste em funções com retorno
+  7 - Testes em funções que manipulam arrays
+  8 - Chamada de métodos de outras classes
