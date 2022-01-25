@@ -59,8 +59,19 @@ public class MetodoJavaTeste1 {
 	public void metodoRecursivoClaculaFatorial() {
 		ClasseMetodo_1 calculaFatorialMetodo = new ClasseMetodo_1();
 		long calculaFatorialTest = calculaFatorialMetodo.calculaFatorial(5);
-		assertEquals(1, calculaFatorialTest);	
+		assertEquals(120, calculaFatorialTest);	
 	}
+	
+	@Test
+	@Order(6)
+	@DisplayName("Testa sobre carga de métodos 1, 2, 3 >>> passando até 3 parâmetros o teste verifica")
+	public void testaSobrecargaDeMetodos1() {
+		ClasseMetodo_1 sobrecargaMetodo = new ClasseMetodo_1();
+		int sobreCargaVariavel = sobrecargaMetodo.sobrecargaMetodoFuncao(5, 3, 5);
+		assertEquals(75, sobreCargaVariavel);	
+	}
+	
+	
 	
 	/*@Test
 	@Order(5)

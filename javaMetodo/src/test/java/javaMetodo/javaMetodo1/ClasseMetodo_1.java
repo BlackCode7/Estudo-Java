@@ -42,6 +42,22 @@ public class ClasseMetodo_1 {
 		
 	}
 
+	//SOBRE CARGA DE MÉTODOS EM JAVA funções com o mesmo nome, mas com a assinatura diferente
+	public int sobrecargaMetodoFuncao(int i) {
+		// Sobre carga de métodos em java
+		return i;
+	}
+	
+	public int sobrecargaMetodoFuncao(int i, int j) {
+		// Sobre carga de métodos em java
+		return i * j;
+	}
+	
+	public int sobrecargaMetodoFuncao(int i, int j, int m) {
+		// Sobre carga de métodos em java
+		return i*j*m;
+	}
+
 		
 
 }
