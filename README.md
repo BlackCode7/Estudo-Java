@@ -50,3 +50,4 @@ hint: See "git help submodule" for more information.
   6 - Teste em funções com retorno
   7 - Testes em funções que manipulam arrays
   8 - Chamada de métodos de outras classes
+  9 - Estudo de java referênte à orientação objetos
